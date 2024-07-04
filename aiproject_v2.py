@@ -3,9 +3,11 @@ import google.generativeai as genai
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
 from huggingface_hub import login
+from getpass import getpass
 
 #audio ai import
-login("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")
+hfKEY = getpass(prompt="Enter your hugging face Key: ")
+login(hfKEY)
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
 torch_dtype = torch.float16 if torch.cuda.is_available() else torch.float32
 
