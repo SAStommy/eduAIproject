@@ -25,7 +25,8 @@ audioai = pipeline(
 )
 
 #gemini import
-genai.configure(api_key="AIzaSyCj-HSpkgbERYjGM710-9PsAKE3zSAJBRk")
+googlekey = getpass(prompt="Enter your google Key: ")
+genai.configure(api_key=googlekey)
 model = genai.GenerativeModel('gemini-1.5-pro')
 
 #本機端audio需要ffmpeg
