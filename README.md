@@ -14,7 +14,8 @@
 ### 啟動方法
 1. 按線色code<>按鈕並按download zip
 2. 把下載檔解壓縮
-3. 把
+3. 把aiproject_v4.(gemini-1.5-pro).py跑起來(要下載ffmpeg及import的套件)
+4. 使用方法看介紹影片
 ### 介紹影片
 https://youtu.be/ZhsbQv5_M1o
 
