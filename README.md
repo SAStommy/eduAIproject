@@ -19,6 +19,6 @@
 ### 介紹影片
 https://youtu.be/ZhsbQv5_M1o
 ### 補充說明
-v4版本,feeling部分存在overfiting使用付費gemini可把csv全部資料作訓練避免
+v4版本,feeling部分存在overfiting使用付費gemini可把csv全部資料作訓練解決
 
 
